@@ -11,7 +11,9 @@
 			echo 'OPS. Something went wrong :(<br>';
 	}
 ?>
+
 <h2>Password test</h2>
+
 <form action='password_crypt.php' method='post'>
 	<input type="text" placeholder="Insert password" name="password" ></input>
 	<input type="submit" value="Submit"></input>
